@@ -55,3 +55,5 @@ document.getElementById("searchInput").addEventListener("search", () => {
 
   let moviesPersists = JSON.parse(localStorage.getItem("moviesData"));
   displayData(moviesPersists);
+
+  
